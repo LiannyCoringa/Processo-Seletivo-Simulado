@@ -1,10 +1,11 @@
-import Header from "../components/Header";
+import Header from '../components/Header';
+import Highlights from '../components/Highlights';
 
 function Home() {
   return (
     <div>
       <Header />
-      <h1>Home</h1>
+      <Highlights />
     </div>
   );
 }
